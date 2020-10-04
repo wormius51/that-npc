@@ -20,4 +20,5 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: 3dbeab758c3d1e847911a9915cc6913b, type: 2}
   - text: <act>Do nothing</act>
     nextNode: {fileID: 11400000, guid: 3dbeab758c3d1e847911a9915cc6913b, type: 2}
-  onNodeActivatedEventsTrigerred: []
+  onNodeActivatedEventsTrigerred:
+  - MomAngry

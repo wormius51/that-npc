@@ -1125,6 +1125,10 @@ MonoBehaviour:
     onNodeActivationEvent: ShopCloser
   - sprite: {fileID: 21300000, guid: 3b3351b4a62864d4dbc862cb05a4f12b, type: 3}
     onNodeActivationEvent: Death
+  - sprite: {fileID: 21300000, guid: 09afd5e6ffaeeeb4fa9a0b1f05dfa55b, type: 3}
+    onNodeActivationEvent: WakeUp
+  - sprite: {fileID: 21300000, guid: 4f6e4f685aac428499c89961ac3f90bb, type: 3}
+    onNodeActivationEvent: MomAngry
 --- !u!114 &1120121057
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1192,7 +1196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feadf553ccbaeab438ae6cd5cce9a121, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enteryPoint: {fileID: 11400000, guid: 8a0c8c3c47b4d494d9d3593b4d2e39e4, type: 2}
+  enteryPoint: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
   npcTextMesh: {fileID: 794405085}
   colors: {fileID: 11400000, guid: 9ee07ed717678b54e8bf68935f112f62, type: 2}
   optionTextMeshes:

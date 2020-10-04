@@ -17,5 +17,5 @@ MonoBehaviour:
     Go to the potion shop and get some.'
   options:
   - text: <act>Go to the shop</act>
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 8a0c8c3c47b4d494d9d3593b4d2e39e4, type: 2}
   onNodeActivatedEventsTrigerred: []
