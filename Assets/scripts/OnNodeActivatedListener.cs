@@ -8,7 +8,7 @@ public abstract class OnNodeActivatedListener: MonoBehaviour
 {
 
     [SerializeField]
-    CustomEventListener[] OnNodeActivatedListenedEvents;
+    List<CustomEventListener> OnNodeActivatedListenedEvents = new List<CustomEventListener>();
 
    
 
@@ -26,6 +26,15 @@ public abstract class OnNodeActivatedListener: MonoBehaviour
         foreach (var s in OnNodeActivatedListenedEvents)
         {
             CustomEventManager.UnSubscribeEvent(s.listenedEvent, s.listenerFunction);
+        }
+    }
+
+    protected void CreateCustomEventListener(string listenedEvent, UnityEvent listenerFunction)
+    {
+        OnNodeActivatedListenedEvents.Add(new CustomEventListener() { listenedEvent = listenedEvent, listenerFunction = listenerFunction });
+        if (gameObject.activeInHierarchy)
+        {
+            CustomEventManager.SubscribeEvent(listenedEvent, listenerFunction);
         }
     }
 

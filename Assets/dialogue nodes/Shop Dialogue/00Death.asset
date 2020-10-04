@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
+  m_Name: 00Death
+  m_EditorClassIdentifier: 
+  text: Try again?
+  options:
+  - text: I must get that potion!
+    nextNode: {fileID: 11400000, guid: 8a0c8c3c47b4d494d9d3593b4d2e39e4, type: 2}
+  onNodeActivatedEventsTrigerred:
+  - Death
