@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 1df7f50ad3bfc0245bf44b0741740030
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - David Libre
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: a655fe47c7e47504883b7ca9d9cf4aaa, type: 3}
+  - {fileID: 12800000, guid: 5175ee7fcf4f1a142b8f4ce9aebc2e29, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

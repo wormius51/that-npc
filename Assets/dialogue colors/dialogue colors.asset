@@ -15,3 +15,5 @@ MonoBehaviour:
   colors:
   - name: sound
     color: {r: 0.0024207425, g: 0.3383763, b: 0.6415094, a: 1}
+  - name: act
+    color: {r: 0.003921565, g: 0.6431373, b: 0.010045186, a: 1}

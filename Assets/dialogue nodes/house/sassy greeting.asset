@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: title
+  m_Name: sassy greeting
   m_EditorClassIdentifier: 
-  text: 'That NPC:
+  text: 'Mom: Comeon, get up.
 
-    A game for Ludum Dare 47'
+    That''s what you get for staying up late.'
   options:
-  - text: Play
-    nextNode: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
-  - text: Credits
-    nextNode: {fileID: 11400000, guid: 6e15ccefda6aa3b49bd89f6f826a83cf, type: 2}
+  - text: <act>Cover Head</act>
+    nextNode: {fileID: 0}
+  - text: <act>Get Up</act>
+    nextNode: {fileID: 0}
+  onNodeActivatedEventsTrigerred: []
