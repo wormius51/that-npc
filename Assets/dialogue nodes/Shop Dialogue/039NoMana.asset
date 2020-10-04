@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 03Welcome
+  m_Name: 039NoMana
   m_EditorClassIdentifier: 
-  text: Welcome to my humble shop! Were you looking for potions?
+  text: Yea, I have no mana potions left.
   options:
-  - text: Yes, I am looking for a mana potion.
-    nextNode: {fileID: 0}
-  - text: 
-    nextNode: {fileID: 0}
-  - text: 
-    nextNode: {fileID: 0}
+  - text: I can always come back later if you have none
+    nextNode: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
+  - text: Cmon now...
+    nextNode: {fileID: 11400000, guid: 6d71428712a742f42834bccd12687ec2, type: 2}
   onNodeActivatedEventsTrigerred: []

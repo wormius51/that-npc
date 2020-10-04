@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 031Mana
+  m_Name: 033What
   m_EditorClassIdentifier: 
-  text: Oh.. well.. *cough*
+  text: <nar>He looks around, and then whispers</nar> Are you really this oblivious?
   options:
-  - text: What?
-    nextNode: {fileID: 11400000, guid: 17b2542fd55937046b5730bcfae565dd, type: 2}
-  - text: Don't you have any left?
-    nextNode: {fileID: 11400000, guid: e33f86b69d601b3479ba6930ea866a89, type: 2}
+  - text: Yes
+    nextNode: {fileID: 11400000, guid: e0d86c27693ac944c83ab598a3b12443, type: 2}
+  - text: Fuck you!
+    nextNode: {fileID: 11400000, guid: 43518e232d4f698499b2f87acef87c3a, type: 2}
   onNodeActivatedEventsTrigerred: []

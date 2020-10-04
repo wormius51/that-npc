@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 031Mana
+  m_Name: 032What
   m_EditorClassIdentifier: 
-  text: Oh.. well.. *cough*
+  text: Well...
   options:
-  - text: What?
-    nextNode: {fileID: 11400000, guid: 17b2542fd55937046b5730bcfae565dd, type: 2}
-  - text: Don't you have any left?
-    nextNode: {fileID: 11400000, guid: e33f86b69d601b3479ba6930ea866a89, type: 2}
+  - text: What!? Is something up?
+    nextNode: {fileID: 11400000, guid: e754b258c36a70c4c988100c94a8f09a, type: 2}
   onNodeActivatedEventsTrigerred: []
