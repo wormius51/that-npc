@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: entery point
+  m_Name: wake up
   m_EditorClassIdentifier: 
-  text: '<color=#1c8491>*Alarm Clock Sound*</color>
+  text: 'Mom: Good morning [generic antagonist name]
 
-    <color=#1c8491>*Alarm Clock
-    Sound*</color>
-
-    <color=#1c8491>*Alarm Clock Sound*</color>'
+'
   options:
-  - text: Wake Up
-    nextNode: {fileID: 11400000, guid: feef33106e1a0d24891a2a0a0697f572, type: 2}
+  - text: ... yea <sound>*yawn*</sound>
+    nextNode: {fileID: 0}
+  - text: Goog Morinig
+    nextNode: {fileID: 0}

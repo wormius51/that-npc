@@ -8,6 +8,7 @@ public class DialogueUI : MonoBehaviour
     public static DialogueUI instance {get; private set;}
     public DialogueNode enteryPoint;
     public TextMeshProUGUI npcTextMesh;
+    public DialogueColors colors;
     public TextMeshProUGUI[] optionTextMeshes;
     private DialogueNode currentDialogueNode;
     // Start is called before the first frame update
@@ -40,11 +41,19 @@ public class DialogueUI : MonoBehaviour
     }
 
     public void updateTexts(string npcText, string[] optionTexts) {
-        npcTextMesh.text = npcText;
+        npcTextMesh.text = applyColors(npcText);
         for (int i = 0; i < optionTexts.Length; i++) {
-            optionTextMeshes[i].text = optionTexts[i];
+            optionTextMeshes[i].text = applyColors(optionTexts[i]);
         }
         changeOptionsVisibility(optionTexts.Length);
+    }
+
+    private string applyColors(string text) {
+        foreach (NameColorPair nc in colors.colors) {
+            text = text.Replace($"<{nc.name}>", $"<color=#{ColorUtility.ToHtmlStringRGBA(nc.color)}>");
+            text = text.Replace($"</{nc.name}>", "</color>");
+        }
+        return text;
     }
 
     private void changeOptionsVisibility(int numberOfOptions) {

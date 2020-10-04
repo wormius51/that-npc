@@ -1036,6 +1036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enteryPoint: {fileID: 11400000, guid: 7fb1d4600bee2234bb62f1dec3315803, type: 2}
   npcTextMesh: {fileID: 794405085}
+  colors: {fileID: 11400000, guid: 9ee07ed717678b54e8bf68935f112f62, type: 2}
   optionTextMeshes:
   - {fileID: 7945085039378841389}
   - {fileID: 655511002}
