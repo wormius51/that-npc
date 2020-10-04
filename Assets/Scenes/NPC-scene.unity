@@ -1034,7 +1034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feadf553ccbaeab438ae6cd5cce9a121, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enteryPoint: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
+  enteryPoint: {fileID: 11400000, guid: 7fb1d4600bee2234bb62f1dec3315803, type: 2}
   npcTextMesh: {fileID: 794405085}
   optionTextMeshes:
   - {fileID: 7945085039378841389}
