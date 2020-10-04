@@ -12,12 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
   m_Name: sassy greeting
   m_EditorClassIdentifier: 
-  text: 'Mom: Comeon, get up.
-
-    That''s what you get for staying up late.'
+  text: "Mom: Comeon, get up.\nThat's what you get for \nstaying up late."
   options:
   - text: <act>Cover Head</act>
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 3faa4cd4e40605c4a95c9040c51fc760, type: 2}
   - text: <act>Get Up</act>
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: 3dbeab758c3d1e847911a9915cc6913b, type: 2}
   onNodeActivatedEventsTrigerred: []
