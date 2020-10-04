@@ -34,6 +34,9 @@ public class DialogueUI : MonoBehaviour
         }
         updateTexts(node.text, optionTexts);
         changeOptionsVisibility(optionTexts.Length);
+
+        //callbacks
+        node.OnDialogueNodeActivated(this);
     }
 
     public void selectOption(int index) {

@@ -30,11 +30,11 @@ public class OptionUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
     }
 
     public void OnPointerUp(PointerEventData pointerEventData) {
-        makeHighlated();
+        makeHighlighted();
     }
 
     public void OnPointerEnter(PointerEventData pointerEventData) {
-        makeHighlated();
+        makeHighlighted();
     }
 
     public void OnPointerExit(PointerEventData pointerEventData) {
@@ -50,7 +50,7 @@ public class OptionUI : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, I
         scale(normalScale);
     }
 
-    private void makeHighlated() {
+    private void makeHighlighted() {
         image.color = highlightedColor;
         scale(highlightedScale);
     }
