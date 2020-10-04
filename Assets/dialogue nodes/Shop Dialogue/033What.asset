@@ -16,6 +16,6 @@ MonoBehaviour:
   options:
   - text: Yes
     nextNode: {fileID: 11400000, guid: e0d86c27693ac944c83ab598a3b12443, type: 2}
-  - text: Fuck you!
+  - text: I ain't oblivious!
     nextNode: {fileID: 11400000, guid: 43518e232d4f698499b2f87acef87c3a, type: 2}
   onNodeActivatedEventsTrigerred: []
