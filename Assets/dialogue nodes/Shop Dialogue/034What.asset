@@ -10,12 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 031Mana
+  m_Name: 034What
   m_EditorClassIdentifier: 
-  text: Oh.. well.. *cough*
+  text: Well, you see, a law was passed yesterday.
   options:
-  - text: What?
-    nextNode: {fileID: 11400000, guid: 17b2542fd55937046b5730bcfae565dd, type: 2}
-  - text: Don't you have any left?
-    nextNode: {fileID: 11400000, guid: e33f86b69d601b3479ba6930ea866a89, type: 2}
+  - text: I slept all day yesterday
+    nextNode: {fileID: 11400000, guid: 9ca09e9cf6f38034b98099b4b73052df, type: 2}
   onNodeActivatedEventsTrigerred: []
