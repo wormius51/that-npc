@@ -10,15 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: title
+  m_Name: old story
   m_EditorClassIdentifier: 
-  text: 'That NPC:
-
-    A game for Ludum Dare 47'
+  text: When I was your age, I was in  the army.
   options:
-  - text: Play
-    nextNode: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
-  - text: Credits
-    nextNode: {fileID: 11400000, guid: 6e15ccefda6aa3b49bd89f6f826a83cf, type: 2}
-  onNodeActivatedEventsTrigerred:
-  - mo-char
+  - text: Wow, Great Job!
+    nextNode: {fileID: 0}
+  - text: Sorry for being yonger.
+    nextNode: {fileID: 0}
+  - text: Potion please.
+    nextNode: {fileID: 0}
+  onNodeActivatedEventsTrigerred: []

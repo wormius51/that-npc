@@ -41,6 +41,7 @@ public class ImageManager : OnNodeActivatedListener
         public void ActivateImage()
         {
             image.sprite = backgroundImage.sprite;
+            image.enabled = image.sprite != null;
         }
     }
 
