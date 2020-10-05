@@ -12,6 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
   m_Name: 050Revolutionary
   m_EditorClassIdentifier: 
-  text: 
-  options: []
-  onNodeActivatedEventsTrigerred: []
+  text: <nar> He looks up at you, ready for whatever may come. </nar>
+  options:
+  - text: Listen here, don't you think this is a bit unfair?
+    nextNode: {fileID: 11400000, guid: 047011819d27d4a4c86bc3d4fe4c3a27, type: 2}
+  onNodeActivatedEventsTrigerred:
+  - ShopEnter

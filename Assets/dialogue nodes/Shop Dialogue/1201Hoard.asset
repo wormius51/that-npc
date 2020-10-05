@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
+  m_Name: 1201Hoard
+  m_EditorClassIdentifier: 
+  text: No wife, no money... This is making me sad. Just.. just come back later.
+    I am in no mood to work.
+  options:
+  - text: Ok. I'll see you later then.
+    nextNode: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
+  - text: I understand. But I really need this potion; my mom is sick!
+    nextNode: {fileID: 11400000, guid: 3c40ded1d9321754c84dd57496b7071c, type: 2}
+  - text: Wait! I'll have you know, I am in fact, a noble!
+    nextNode: {fileID: 11400000, guid: 2b5cc3b9fcaeb0e44a7f482298bc6f61, type: 2}
+  onNodeActivatedEventsTrigerred: []

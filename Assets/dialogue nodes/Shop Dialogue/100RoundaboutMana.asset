@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 030Welcome
+  m_Name: 100RoundaboutMana
   m_EditorClassIdentifier: 
-  text: Welcome to my humble shop! Were you looking for potions?
+  text: Well, whatever you may wish, I am sure we have it! This is one of the best
+    shops in town.
   options:
-  - text: Yes, I am looking for a mana potion.
+  - text: I am looking for a mana potion.
     nextNode: {fileID: 11400000, guid: 731b223d3ff950f4aa9962d0ef14fd32, type: 2}
-  - text: Yes, though I am not sure what
-    nextNode: {fileID: 11400000, guid: 42a8a64c61b5ea0458c2a43ada46e598, type: 2}
-  - text: Just wanted to look around.
-    nextNode: {fileID: 11400000, guid: 05a1fac1e562f6d4abe5315289b7af64, type: 2}
+  - text: I am looking for a health potion.
+    nextNode: {fileID: 11400000, guid: bfeff8aa5906cd04784df2b172b954c6, type: 2}
   onNodeActivatedEventsTrigerred: []

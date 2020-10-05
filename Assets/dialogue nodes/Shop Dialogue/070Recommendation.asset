@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
+  m_Name: 070Recommendation
+  m_EditorClassIdentifier: 
+  text: Well, if you are looking for a good potion, I do have some recommendations.
+  options:
+  - text: Sounds intriguing!
+    nextNode: {fileID: 11400000, guid: bfeff8aa5906cd04784df2b172b954c6, type: 2}
+  - text: Well, actually, I am looking for a specific one.
+    nextNode: {fileID: 11400000, guid: 7d01926a69081f947a0a5322f2d44c7a, type: 2}
+  onNodeActivatedEventsTrigerred: []

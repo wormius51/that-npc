@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 060LieNoble
+  m_Name: 051Unfair
   m_EditorClassIdentifier: 
-  text: <nar> He looks up at you with more consideration. </nar>
+  text: Well, life is never fair.
   options:
-  - text: I am, in fact, one of the nobles in town.
-    nextNode: {fileID: 11400000, guid: 2b5cc3b9fcaeb0e44a7f482298bc6f61, type: 2}
-  onNodeActivatedEventsTrigerred:
-  - ShopEnter
+  - text: Not if we make it.
+    nextNode: {fileID: 11400000, guid: dbe43476314835742819ce3274921742, type: 2}
+  - text: Not if we keep hoarders like you around!
+    nextNode: {fileID: 11400000, guid: 358ec980f25a7e04db3ed97acdcb8091, type: 2}
+  onNodeActivatedEventsTrigerred: []

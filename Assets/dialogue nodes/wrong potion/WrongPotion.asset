@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
+  m_Name: WrongPotion
+  m_EditorClassIdentifier: 
+  text: What is this!? You got the wrong potion! What kind of son have I raised!?
+    Can't you even handle this?
+  options:
+  - text: I'm so sorry! I'll go back and get the right one.
+    nextNode: {fileID: 11400000, guid: 8a0c8c3c47b4d494d9d3593b4d2e39e4, type: 2}
+  - text: I'm sorry mom. I am really sleepy now, though. Can I get it tomorrow?
+    nextNode: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
+  - text: It's apparently illegal now for commoners.
+    nextNode: {fileID: 11400000, guid: de602aae4f72614499c1128abd103186, type: 2}
+  onNodeActivatedEventsTrigerred:
+  - MomAngry

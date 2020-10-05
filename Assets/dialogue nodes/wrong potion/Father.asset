@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 060LieNoble
+  m_Name: Father
   m_EditorClassIdentifier: 
-  text: <nar> He looks up at you with more consideration. </nar>
+  text: How could that be beside the point!? Your father could be one of the princes
+    in town for all we know.
   options:
-  - text: I am, in fact, one of the nobles in town.
-    nextNode: {fileID: 11400000, guid: 2b5cc3b9fcaeb0e44a7f482298bc6f61, type: 2}
-  onNodeActivatedEventsTrigerred:
-  - ShopEnter
+  - text: Oh. Ok then.
+    nextNode: {fileID: 11400000, guid: 3f10bc1675d43fd4cbbde6a08b619a37, type: 2}
+  - text: OH
+    nextNode: {fileID: 11400000, guid: 9ec0517838a616d46aaa23589f316034, type: 2}
+  onNodeActivatedEventsTrigerred: []

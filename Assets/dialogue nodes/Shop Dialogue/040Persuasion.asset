@@ -15,7 +15,10 @@ MonoBehaviour:
   text: <nar>He looks up at you, half tired, half expectant</nar>
   options:
   - text: Surely we could make a deal...
-    nextNode: {fileID: 0}
-  - text: 
-    nextNode: {fileID: 0}
-  onNodeActivatedEventsTrigerred: []
+    nextNode: {fileID: 11400000, guid: 1b54fbfa97894b94dbfb1ea4012a5e51, type: 2}
+  - text: There is nothing money can't buy...
+    nextNode: {fileID: 11400000, guid: 1b54fbfa97894b94dbfb1ea4012a5e51, type: 2}
+  - text: We are brothers here!
+    nextNode: {fileID: 11400000, guid: 81112b9c785396f4bb775bf254309b3c, type: 2}
+  onNodeActivatedEventsTrigerred:
+  - ShopEnter

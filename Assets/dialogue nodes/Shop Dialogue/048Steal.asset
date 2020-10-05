@@ -10,11 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 060LieNoble
+  m_Name: 048Steal
   m_EditorClassIdentifier: 
-  text: <nar> He looks up at you with more consideration. </nar>
+  text: Hahahaha! You can't steal what's already gone, now, can you?
   options:
-  - text: I am, in fact, one of the nobles in town.
-    nextNode: {fileID: 11400000, guid: 2b5cc3b9fcaeb0e44a7f482298bc6f61, type: 2}
-  onNodeActivatedEventsTrigerred:
-  - ShopEnter
+  - text: Look, I really am sorry to hear that.
+    nextNode: {fileID: 11400000, guid: 8859a7c2b78319e42b3507c8147f3998, type: 2}
+  onNodeActivatedEventsTrigerred: []

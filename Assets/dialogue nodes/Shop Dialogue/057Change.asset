@@ -10,14 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 030Welcome
+  m_Name: 057Change
   m_EditorClassIdentifier: 
-  text: Welcome to my humble shop! Were you looking for potions?
+  text: <nar> waves his hand </nar> We should probably change the subject before
+    we are overheard.
   options:
-  - text: Yes, I am looking for a mana potion.
-    nextNode: {fileID: 11400000, guid: 731b223d3ff950f4aa9962d0ef14fd32, type: 2}
-  - text: Yes, though I am not sure what
+  - text: Alright. Well, I'll come back later in case you change your mind.
+    nextNode: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
+  - text: Ok. so, back to potions. What can you recommend?
     nextNode: {fileID: 11400000, guid: 42a8a64c61b5ea0458c2a43ada46e598, type: 2}
-  - text: Just wanted to look around.
-    nextNode: {fileID: 11400000, guid: 05a1fac1e562f6d4abe5315289b7af64, type: 2}
   onNodeActivatedEventsTrigerred: []

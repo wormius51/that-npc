@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 030Welcome
+  m_Name: 073Health
   m_EditorClassIdentifier: 
-  text: Welcome to my humble shop! Were you looking for potions?
+  text: Mana potions are more expensive. They are also sweeter.
   options:
-  - text: Yes, I am looking for a mana potion.
+  - text: I'd like a mana potion instead.
     nextNode: {fileID: 11400000, guid: 731b223d3ff950f4aa9962d0ef14fd32, type: 2}
-  - text: Yes, though I am not sure what
-    nextNode: {fileID: 11400000, guid: 42a8a64c61b5ea0458c2a43ada46e598, type: 2}
-  - text: Just wanted to look around.
-    nextNode: {fileID: 11400000, guid: 05a1fac1e562f6d4abe5315289b7af64, type: 2}
+  - text: 'More expensive? '
+    nextNode: {fileID: 11400000, guid: 5a437c09b21db124faf27d75f5205ccf, type: 2}
+  - text: No other benefits?
+    nextNode: {fileID: 11400000, guid: 85856d166f072764e93b522fd9a3515d, type: 2}
   onNodeActivatedEventsTrigerred: []

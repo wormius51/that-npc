@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 060LieNoble
+  m_Name: 075Benefits
   m_EditorClassIdentifier: 
-  text: <nar> He looks up at you with more consideration. </nar>
+  text: 'They make you live longer
+
+'
   options:
-  - text: I am, in fact, one of the nobles in town.
-    nextNode: {fileID: 11400000, guid: 2b5cc3b9fcaeb0e44a7f482298bc6f61, type: 2}
-  onNodeActivatedEventsTrigerred:
-  - ShopEnter
+  - text: What the hell? give me a mana potion then!
+    nextNode: {fileID: 11400000, guid: 731b223d3ff950f4aa9962d0ef14fd32, type: 2}
+  onNodeActivatedEventsTrigerred: []

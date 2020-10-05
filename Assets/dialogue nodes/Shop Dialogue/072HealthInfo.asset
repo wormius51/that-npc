@@ -10,11 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 060LieNoble
+  m_Name: 072HealthInfo
   m_EditorClassIdentifier: 
-  text: <nar> He looks up at you with more consideration. </nar>
+  text: A health potion invigorates, my friend!
   options:
-  - text: I am, in fact, one of the nobles in town.
-    nextNode: {fileID: 11400000, guid: 2b5cc3b9fcaeb0e44a7f482298bc6f61, type: 2}
-  onNodeActivatedEventsTrigerred:
-  - ShopEnter
+  - text: Sounds great! I'd like to buy one.
+    nextNode: {fileID: 11400000, guid: 8830fa6d58290ee418625ace44da353d, type: 2}
+  - text: How is it any different from a mana potion?
+    nextNode: {fileID: 11400000, guid: 348cf7cbaad1ef14ea6d4ea120c56bc1, type: 2}
+  onNodeActivatedEventsTrigerred: []
