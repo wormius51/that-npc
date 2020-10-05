@@ -17,7 +17,7 @@ MonoBehaviour:
   options:
   - text: Hello?
     nextNode: {fileID: 11400000, guid: ba427a1c06e1a2a46aa87c6fb7b3220d, type: 2}
-  - text: '*shout playfully* Hellooo!!!'
+  - text: <sound>*shout playfully*</sound> Hellooo!!!
     nextNode: {fileID: 11400000, guid: 43518e232d4f698499b2f87acef87c3a, type: 2}
   onNodeActivatedEventsTrigerred:
   - ShopCloser

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
   m_Name: 00ShopEntry
   m_EditorClassIdentifier: 
-  text: '*You see the shop owner, cleaning the vials scattered about.*'
+  text: <nar>You see the shop owner, cleaning the vials scattered about.</nar>
   options:
-  - text: Slowly Enter
+  - text: <act>Slowly Enter</act>
     nextNode: {fileID: 11400000, guid: aaad20101306bc44590e18d4a4144ca8, type: 2}
-  - text: Enter
+  - text: <act>Enter</act>
     nextNode: {fileID: 11400000, guid: d06aa3bad9056184daecbb079f0ec17a, type: 2}
   onNodeActivatedEventsTrigerred:
   - ShopEnter
