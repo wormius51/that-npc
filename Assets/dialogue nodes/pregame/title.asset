@@ -21,4 +21,4 @@ MonoBehaviour:
   - text: Credits
     nextNode: {fileID: 11400000, guid: 6e15ccefda6aa3b49bd89f6f826a83cf, type: 2}
   onNodeActivatedEventsTrigerred:
-  - mo-char
+  - no-char

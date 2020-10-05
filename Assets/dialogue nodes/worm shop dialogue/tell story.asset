@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: old story
+  m_Name: tell story
   m_EditorClassIdentifier: 
-  text: When I was your age, I was in  the army.
+  text: It was a cold night. The wolfs where howling..
   options:
-  - text: Wow, Great Job!
-    nextNode: {fileID: 11400000, guid: d4804c8edea7c8f4b80a0267fe712e40, type: 2}
-  - text: Sorry for being yonger.
-    nextNode: {fileID: 11400000, guid: d4804c8edea7c8f4b80a0267fe712e40, type: 2}
-  - text: Potion please.
-    nextNode: {fileID: 11400000, guid: 731b223d3ff950f4aa9962d0ef14fd32, type: 2}
+  - text: Never seen wolfs here
+    nextNode: {fileID: 11400000, guid: 7275d9c3183bcd14aab436e10bb73d7c, type: 2}
+  - text: This is the worst NPC ever
+    nextNode: {fileID: 11400000, guid: a24e1a4485257fc4b9aa3042cbf5ba33, type: 2}
   onNodeActivatedEventsTrigerred: []
