@@ -12,5 +12,6 @@ public class DialogueNodeEditor : Editor {
         
         node.text = EditorGUILayout.TextArea(node.text, GUILayout.MinHeight(50), GUILayout.ExpandHeight(true));
         base.OnInspectorGUI();
+        AssetDatabase.SaveAssets();
     }
 }

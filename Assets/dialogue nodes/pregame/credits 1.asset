@@ -10,14 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: old story
+  m_Name: credits 1
   m_EditorClassIdentifier: 
-  text: When I was your age, I was in  the army.
+  text: "Coding: Eyal Hazor\nCoding: Ozan \xDCrkmez\nSome of the art: Schai"
   options:
-  - text: Wow, Great Job!
-    nextNode: {fileID: 11400000, guid: d4804c8edea7c8f4b80a0267fe712e40, type: 2}
-  - text: Sorry for being yonger.
-    nextNode: {fileID: 11400000, guid: d4804c8edea7c8f4b80a0267fe712e40, type: 2}
-  - text: Potion please.
-    nextNode: {fileID: 11400000, guid: 731b223d3ff950f4aa9962d0ef14fd32, type: 2}
+  - text: Back
+    nextNode: {fileID: 11400000, guid: 19090d76509b8da4daa9e26b4eb7d74d, type: 2}
   onNodeActivatedEventsTrigerred: []

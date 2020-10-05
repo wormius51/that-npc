@@ -10,12 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
-  m_Name: 039NoMana
+  m_Name: title 1
   m_EditorClassIdentifier: 
-  text: Yea, I have no mana potions left.
+  text: 'That NPC:
+
+    A game for Ludum Dare 47'
   options:
-  - text: I can always come back later if you have none
+  - text: Play
     nextNode: {fileID: 11400000, guid: 89b635a72cf45404eaab6d2e06de80e0, type: 2}
-  - text: Comon now...
-    nextNode: {fileID: 11400000, guid: 6d71428712a742f42834bccd12687ec2, type: 2}
-  onNodeActivatedEventsTrigerred: []
+  - text: Credits
+    nextNode: {fileID: 11400000, guid: 158cb05cfc7369a41858761cb371167b, type: 2}
+  onNodeActivatedEventsTrigerred:
+  - no-char
