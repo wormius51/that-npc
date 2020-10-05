@@ -16,4 +16,6 @@ MonoBehaviour:
   options:
   - text: Hmm... so many potions! Maybe you can help?
     nextNode: {fileID: 11400000, guid: 42a8a64c61b5ea0458c2a43ada46e598, type: 2}
+  - text: So, you got any stories?
+    nextNode: {fileID: 11400000, guid: e6b15d273860cd84f94f21624052d471, type: 2}
   onNodeActivatedEventsTrigerred: []
