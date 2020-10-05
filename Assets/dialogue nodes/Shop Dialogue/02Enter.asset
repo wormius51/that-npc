@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
   m_Name: 02Enter
   m_EditorClassIdentifier: 
-  text: As you enter without a thought, you hear a vial break under your shoes!
+  text: <nar>As you enter without a thought, you hear a vial break under your shoes!</nar>
   options:
-  - text: The shop owner looks up
+  - text: <nar>The shop owner looks up</nar>
     nextNode: {fileID: 11400000, guid: 43518e232d4f698499b2f87acef87c3a, type: 2}
   onNodeActivatedEventsTrigerred:
   - ShopCloser

@@ -1307,7 +1307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feadf553ccbaeab438ae6cd5cce9a121, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enteryPoint: {fileID: 11400000, guid: e6b15d273860cd84f94f21624052d471, type: 2}
+  enteryPoint: {fileID: 11400000, guid: 19090d76509b8da4daa9e26b4eb7d74d, type: 2}
   npcTextMesh: {fileID: 794405085}
   colors: {fileID: 11400000, guid: 9ee07ed717678b54e8bf68935f112f62, type: 2}
   optionTextMeshes:

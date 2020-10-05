@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcf4a2abb38b2f04da6f9b3703278a63, type: 3}
   m_Name: 021Enraged
   m_EditorClassIdentifier: 
-  text: 'Shop Owner: Oi! Ain''t your mama teach you no manners barn boy!? Get the
-    fuck out of my sight!'
+  text: 'Shop Owner: Oi! Ain''t your mama teach you no manners barn boy!? Get out
+    of my sight!'
   options:
-  - text: Feel the shame engulf your entire existence
+  - text: <act>Feel the shame engulf your entire existence</act>
     nextNode: {fileID: 11400000, guid: ee87edee3c41a644bb7989246f3ddc7d, type: 2}
   onNodeActivatedEventsTrigerred: []
