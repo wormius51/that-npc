@@ -16,7 +16,7 @@ MonoBehaviour:
   options:
   - text: ... yea <sound>*yawn*</sound>
     nextNode: {fileID: 11400000, guid: 7cb7a9943327c384bb8bb1b3f9cc6f63, type: 2}
-  - text: Good Morinig
+  - text: Good morning
     nextNode: {fileID: 11400000, guid: 352e0a6ea6d858e4cae3bcd22dfe2baf, type: 2}
   onNodeActivatedEventsTrigerred:
   - WakeUp
